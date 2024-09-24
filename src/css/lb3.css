@@ -1,0 +1,50 @@
+h2 {
+  color: #101066;
+  margin-top: 30px; 
+}
+
+h1 {
+     color: blue;
+     font-size: 70px;
+     margin-top: 70px;
+}
+
+body{
+        background-image: url("../assets/images/lab3/bg_body.png");
+        background-position: center;
+        background-size: contain;
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h2::before{
+	content: url("../assets/images/lab3/bg_h2.png"); 
+	display: inline-block; 
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+hr {
+    color: white;
+    background-color: white;
+    height: 2px;
+}
+
+p, pre{
+  padding-left: 60px;
+  line-height: 1.6; 
+}
+
+pre{
+   color: #10105c;
+}
+
+.intro{
+   color: #110e6e; 
+   padding-left: 0;
+}
+
+address{
+   color: blue;
+   text-align: center;
+}
